@@ -1,0 +1,60 @@
+body {
+  margin: auto;
+  max-width: 1600px;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  background-color: #29dcff;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1200 800'%3E%3Cdefs%3E%3CradialGradient id='a' cx='0' cy='800' r='800' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%2394eef6'/%3E%3Cstop offset='1' stop-color='%2394eef6' stop-opacity='0'/%3E%3C/radialGradient%3E%3CradialGradient id='b' cx='1200' cy='800' r='800' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%235490ff'/%3E%3Cstop offset='1' stop-color='%235490ff' stop-opacity='0'/%3E%3C/radialGradient%3E%3CradialGradient id='c' cx='600' cy='0' r='600' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%23bea2f6'/%3E%3Cstop offset='1' stop-color='%23bea2f6' stop-opacity='0'/%3E%3C/radialGradient%3E%3CradialGradient id='d' cx='600' cy='800' r='600' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%2329DCFF'/%3E%3Cstop offset='1' stop-color='%2329DCFF' stop-opacity='0'/%3E%3C/radialGradient%3E%3CradialGradient id='e' cx='0' cy='0' r='800' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%23FEFFEC'/%3E%3Cstop offset='1' stop-color='%23FEFFEC' stop-opacity='0'/%3E%3C/radialGradient%3E%3CradialGradient id='f' cx='1200' cy='0' r='800' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%237E44FF'/%3E%3Cstop offset='1' stop-color='%237E44FF' stop-opacity='0'/%3E%3C/radialGradient%3E%3C/defs%3E%3Crect fill='url(%23a)' width='1200' height='800'/%3E%3Crect fill='url(%23b)' width='1200' height='800'/%3E%3Crect fill='url(%23c)' width='1200' height='800'/%3E%3Crect fill='url(%23d)' width='1200' height='800'/%3E%3Crect fill='url(%23e)' width='1200' height='800'/%3E%3Crect fill='url(%23f)' width='1200' height='800'/%3E%3C/svg%3E");
+  background-attachment: fixed;
+  background-size: cover;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+.box {
+  margin: auto;
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+button {
+  width: 100px;
+  height: 50px;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 3px;
+  outline: none;
+  border: none;
+  color: #fff;
+  background-color: blue;
+  border: 2px solid #fff;
+
+  cursor: pointer;
+  transition: 0.2s;
+}
+button:hover {
+  width: 100px;
+  height: 50px;
+  border: 2px solid blue;
+  color: blue;
+  background-color: #fff;
+}
+button:active {
+  transform: scale(0.97);
+}
+.resultat {
+  margin: auto;
+  width: 80%;
+  border: 2px solid blue;
+  border-radius: 3px;
+  height: 50px;
+  text-align: center;
+  font-weight: bold;
+  padding: 10px;
+  color: blue;
+}
