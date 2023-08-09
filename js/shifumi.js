@@ -1,12 +1,12 @@
 const buttons = document.querySelectorAll("button");
-// const resultat = document.querySelector(".resultat");
+// const resultat = document.querySelector(".resultat")
 
 for (let i = 0; i < buttons.length; i++) {
-  buttons[i].addEventListener("click", function () {
+  buttons[i].addEventListener("click", () => {
     const joueur = buttons[i].innerHTML;
     const robot = buttons[Math.floor(Math.random() * buttons.length)].innerHTML;
     let resultat = "";
-    // resultat.innerHTML = joueur + "       " + robot;
+    // resultat.innerHTML = joueur + "       " + robot
     if (joueur === robot) {
       resultat = "Egalité";
     } else if (
